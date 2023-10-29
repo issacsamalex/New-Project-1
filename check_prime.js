@@ -12,7 +12,7 @@ function checkPrime(num){
 }
 
 let arr1 = [3, 12, 40, 24, 0];
-let arrayElement = arr1[1];
+let arrayElement = arr1[0];
 let PrimeNo = checkPrime(arrayElement);
 if(PrimeNo){
     console.log(arrayElement + " is a prime number");
